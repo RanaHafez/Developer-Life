@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "GoogleSansCode";
+  src: url("/GoogleSansCode-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-code: "GoogleSansCode", monospace;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-code);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: var(--font-code);
+}
+
+.introduction {
+  margin-top: 50vh;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.introduction__title {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.introduction__subtitle {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
