@@ -6,6 +6,7 @@ import Experiment from "./components/Experiment";
 import { Canvas } from "@react-three/fiber";
 import { Scroll, ScrollControls, Stage } from "@react-three/drei";
 import { Interface } from "./components/Interface";
+import { Leva } from "leva";
 export const MORNINGCOLORS = {
   sunrise: "#3A2E5D", // بنفسجي غامق → الشمس تبرز
   earlyMorning: "#4A6FA5", // أزرق سماوي هادي
@@ -15,6 +16,7 @@ export const MORNINGCOLORS = {
 function App() {
   return (
     <>
+      <Leva hidden />
       <Canvas camera={{ position: [0, 5, 20] }} shadows>
         <color attach={"background"} args={["#f8f6f3"]} />
         {/* <Stage
