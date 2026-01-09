@@ -297,7 +297,11 @@ function Experiment() {
         maxPolarAngle={Math.PI / 2}
         minAzimuthAngle={-Math.PI / 2}
         maxAzimuthAngle={Math.PI / 2}
-        // enableZoom={false}
+        enableZoom={false}
+        enablePan={false}
+        enableDamping={false}
+        // enabled={false}
+        enableRotate={false}
       />
       <Environment preset="night" />
 
