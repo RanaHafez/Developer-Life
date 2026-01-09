@@ -12,7 +12,7 @@ export function Mug(props) {
 
   const steamRef = useRef();
 
-  const texture = useTexture("/textures/steam.jpg");
+  const texture = useTexture("textures/steam.jpg");
   texture.repeat.set(1, 1);
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 

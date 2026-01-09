@@ -16,7 +16,7 @@ export default function Thought({ position, text }) {
   });
   return (
     <Text
-      font={"/fonts/GoogleSansCode-Regular.ttf"}
+      font={"fonts/GoogleSansCode-Regular.ttf"}
       ref={textRef}
       fontSize={0.7}
       position={position}
