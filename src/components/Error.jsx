@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef } from "react";
 import gsap from "gsap";
 
 export default function Error({ position, baseScale, visible }) {
-  const { scene } = useGLTF("/models/Red X.glb");
+  const { scene } = useGLTF("models/Red X.glb");
 
   // Clone so every error is its own object
   const clonedScene = useMemo(() => scene.clone(true), [scene]);

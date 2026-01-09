@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Desk(props) {
-  const { nodes, materials } = useGLTF("/models/Desk.glb");
+  const { nodes, materials } = useGLTF("models/Desk.glb");
   return (
     <group {...props} dispose={null} receiveShadow castShadow>
       <mesh

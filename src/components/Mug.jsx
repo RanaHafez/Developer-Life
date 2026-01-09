@@ -8,7 +8,7 @@ import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { useControls } from "leva";
 export function Mug(props) {
-  const { nodes, materials } = useGLTF("/models/mug.glb");
+  const { nodes, materials } = useGLTF("models/mug.glb");
 
   const steamRef = useRef();
 
@@ -104,4 +104,4 @@ export function Mug(props) {
   );
 }
 
-useGLTF.preload("/models/mug.glb");
+useGLTF.preload("models/mug.glb");

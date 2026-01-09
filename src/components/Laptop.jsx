@@ -10,7 +10,7 @@ import { useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export default function Laptop(props) {
-  const { nodes, materials } = useGLTF("/models/Laptop.glb");
+  const { nodes, materials } = useGLTF("models/Laptop.glb");
   const { angle } = useControls({
     angle: {
       min: 0,
@@ -120,4 +120,4 @@ export default function Laptop(props) {
   );
 }
 
-useGLTF.preload("/models/Laptop.glb");
+useGLTF.preload("models/Laptop.glb");

@@ -6,7 +6,7 @@ import { useScroll } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { MORNINGCOLORS } from "../App";
 export default function Sun(props) {
-  const model = useGLTF("/models/sun.glb");
+  const model = useGLTF("models/sun.glb");
   const { scene } = useThree();
   const ref = useRef();
   const scroll = useScroll();
