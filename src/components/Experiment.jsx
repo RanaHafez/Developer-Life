@@ -299,9 +299,9 @@ function Experiment() {
         maxAzimuthAngle={Math.PI / 2}
         enableZoom={false}
         enablePan={false}
-        enableDamping={false}
+        // enableDamping={false}
         // enabled={false}
-        enableRotate={false}
+        // enableRotate={false}
       />
       <Environment preset="night" />
 
